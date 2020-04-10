@@ -19,5 +19,5 @@ enum evolved_plants {
 }
 
 enum enemy_types {
-	
+	alien
 }
