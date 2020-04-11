@@ -4,6 +4,6 @@
 if (mouse_check_button_pressed(mb_left) && 
 	func_mouse_collision(self) &&
 	is_empty) {
-	instance_create_depth(x, y, -1, obj_plent);
+	func_spawn_plant(global.current_build_plant, self);
 	is_empty = false;
 }

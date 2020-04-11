@@ -4,9 +4,6 @@
 width = global.grid_width;
 height = global.grid_height;
 
-x = 0; 
-y = 0;
-
 grid = ds_list_create();
 
 // Creating and populating the grid
