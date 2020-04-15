@@ -3,13 +3,15 @@
 plant_type = argument0;
 tile = argument1;
 
-show_debug_message(plant_type);
-
 switch(plant_type) {
 	case debug_plents.debug_plent:
-		instance_create_depth(tile.x, tile.y, -1, obj_plent);
+		var inst = instance_create_depth(tile.x, tile.y, -1, obj_plent);
+		tile.tower = inst;
+		inst.tile = tile;
 		break;
 	case debug_plents.debug_plent_2:
-		instance_create_depth(tile.x, tile.y, -1, obj_plent_2);
+		var inst = instance_create_depth(tile.x, tile.y, -1, obj_plent_2);
+		tile.tower = inst;
+		inst.tile = tile;
 		break;
 }

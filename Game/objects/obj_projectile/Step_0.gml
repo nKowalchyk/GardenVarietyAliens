@@ -8,3 +8,6 @@ if(inst != noone) {
 	inst.hp -= damage;
 	instance_destroy(self);
 }
+if(x > room_width) {
+	instance_destroy(self);
+}

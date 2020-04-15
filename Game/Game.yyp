@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5dea633c-415e-4d6b-9d9f-5d85761d6f34",
+            "Value": {
+                "id": "9b042036-2d6e-4bb5-b6ea-fbe57be769ca",
+                "resourcePath": "sprites\\spr_debug_enemy\\spr_debug_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6d6dfba4-62ee-4d7b-aa59-4055d6e7fc40",
             "Value": {
                 "id": "68c9361c-9c26-4478-9457-86715356e4db",
