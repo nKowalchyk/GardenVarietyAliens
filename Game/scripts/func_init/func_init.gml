@@ -29,5 +29,11 @@ enum enemy_types {
 	alien
 }
 
+enum drop_types {
+	damage,
+	rate,
+	hp
+}
+
 //game state values
 global.current_build_plant = debug_plents.debug_plent;
