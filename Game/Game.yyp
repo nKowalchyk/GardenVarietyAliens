@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "6795a92e-2fdc-414f-b17e-dc5498e228f2",
+            "Value": {
+                "id": "a564064a-3dcf-47e3-9d3a-1c239cbf689f",
+                "resourcePath": "scripts\\func_draw_colored\\func_draw_colored.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6d6dfba4-62ee-4d7b-aa59-4055d6e7fc40",
             "Value": {
                 "id": "68c9361c-9c26-4478-9457-86715356e4db",
@@ -188,6 +196,14 @@
                 "id": "a667c35c-2cc6-4cf3-b29c-c208398a8000",
                 "resourcePath": "objects\\obj_gui\\obj_gui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "b57ec387-a668-4432-ae90-a160a2aec401",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "59f64274-9a74-40b0-be61-0a195284245d",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "86c2d41c-ba27-4baa-a51d-b23e2d93c20c",
             "Value": {
                 "id": "55d3100f-fb52-4b6d-84a4-a786b96e6c83",
@@ -252,6 +276,14 @@
                 "id": "6046e43c-9a99-479c-a4b7-a8006d52500f",
                 "resourcePath": "views\\90cea0ac-51d8-455e-8837-29f2ec2fac06.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "bd464eb7-6c83-49cd-abb0-55cef28c2699",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -287,11 +319,27 @@
             }
         },
         {
+            "Key": "9c55462e-90a7-4996-80e8-3152c5b64f9c",
+            "Value": {
+                "id": "7f183436-5fa5-4e45-84bf-768b2739073d",
+                "resourcePath": "shaders\\shd_recolor\\shd_recolor.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "9ce0b37e-eb0e-4161-b749-2462eb3f1fe1",
             "Value": {
                 "id": "1fd50591-b2c1-4c19-be0b-df24a9b62a31",
                 "resourcePath": "scripts\\func_init\\func_init.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "549de294-8ad6-4873-9ba9-f9a81af5aad3",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -431,6 +479,14 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "8084f107-6345-4699-8701-4778d56aeb1e",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "e5cbf2b3-7e87-4afc-87e0-035c05489243",
             "Value": {
                 "id": "ba6c3033-cb18-48fe-999c-13d1025cdc34",
@@ -499,7 +555,8 @@
         "9ce0b37e-eb0e-4161-b749-2462eb3f1fe1",
         "02f08201-f099-4425-94ed-c204cf0db17f",
         "effad121-a790-4919-8047-43692691ef00",
-        "fda31f67-58e2-4b61-ab78-35a82a8b0c3f"
+        "fda31f67-58e2-4b61-ab78-35a82a8b0c3f",
+        "6795a92e-2fdc-414f-b17e-dc5498e228f2"
     ],
     "tutorial": ""
 }
