@@ -6,6 +6,7 @@ global.grid_height = 5;
 global.tile_size = 128;
 
 enum hats {
+	none,
 	wizard,
 	cowboy,
 	helmet
@@ -17,12 +18,11 @@ enum debug_plents {
 	debug_plent_2
 }
 
-enum basic_plants {
-	sprout
-}
-
-enum evolved_plants {
-	
+enum plant_types {
+	lily,
+	daffodil,
+	rose,
+	poofy
 }
 
 enum enemy_types {

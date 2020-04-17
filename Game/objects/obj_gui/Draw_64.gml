@@ -1,6 +1,8 @@
 /// @description Insert description here
 
-draw_rectangle_colour(
+draw_sprite(spr_gui_selector, 0, gui_element_list[| selected_index].x, gui_element_list[| selected_index].y)
+
+/*draw_rectangle_colour(
 	gui_element_list[| selected_index].x,
 	gui_element_list[| selected_index].y,
 	gui_element_list[| selected_index].x + global.tile_size,
@@ -10,4 +12,4 @@ draw_rectangle_colour(
 	c_green,
 	c_green,
 	true
-);
+);*/

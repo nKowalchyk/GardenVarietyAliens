@@ -8,4 +8,6 @@ x = global.tile_size / 4;
 y = global.tile_size / 4;
 
 ds_list_add(gui_element_list, instance_create_depth(x, y, depth, obj_gui_debug_plent));
-ds_list_add(gui_element_list, instance_create_depth(x + global.tile_size, y, depth, obj_gui_debug_plent_2));
+ds_list_add(gui_element_list, instance_create_depth(x + global.tile_size, y, depth, obj_gui_nutrient_red));
+ds_list_add(gui_element_list, instance_create_depth(x + global.tile_size + global.tile_size, y, depth, obj_gui_nutrient_green));
+ds_list_add(gui_element_list, instance_create_depth(x + global.tile_size + global.tile_size + global.tile_size, y, depth, obj_gui_nutrient_blue));

@@ -14,4 +14,7 @@ switch(plant_type) {
 		tile.tower = inst;
 		inst.tile = tile;
 		break;
+	default:
+		is_empty = true;
+		break;
 }
