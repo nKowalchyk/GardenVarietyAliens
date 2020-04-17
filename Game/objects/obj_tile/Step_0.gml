@@ -21,3 +21,6 @@ if (tower != noone && row_can_fire) {
 else if (tower != noone){
 	tower.enemy_in_range = false;	
 }
+if (tower == noone) {
+	is_empty = true;
+}
