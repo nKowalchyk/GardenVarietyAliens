@@ -8,6 +8,11 @@ if(hp <= 0) {
 	}
 }
 
+if !enemy_in_range
+{
+	image_index = 0;	
+}
+
 switch (image_index)
 {
 	case 0:
@@ -23,6 +28,7 @@ switch (image_index)
 		offY = 29;
 		break;
 }
+
 
 
 if(can_attack && enemy_in_range) {

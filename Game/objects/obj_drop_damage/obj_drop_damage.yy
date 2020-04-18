@@ -5,7 +5,7 @@
     "name": "obj_drop_damage",
     "eventList": [
         {
-            "id": "7a3bf908-cc81-450e-b603-aa06e649d9c4",
+            "id": "f8625dac-13bb-4aac-80b3-b18c6d437bd6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,19 +15,19 @@
             "m_owner": "b2ebd7f9-f670-49ec-9eda-1885ff065fda"
         },
         {
-            "id": "c76cf241-d336-4475-ac51-09a08605b076",
+            "id": "dea41c45-fdc8-4d89-8acc-e1ff4fc88ace",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 1,
             "m_owner": "b2ebd7f9-f670-49ec-9eda-1885ff065fda"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "e8ca47e6-624e-4b36-9bef-eb46dbc3a7d8",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

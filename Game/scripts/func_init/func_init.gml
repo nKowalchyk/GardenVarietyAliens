@@ -5,6 +5,9 @@ global.grid_width = 9;
 global.grid_height = 5;
 global.tile_size = 128;
 
+randomize();
+
+
 enum hats {
 	none,
 	wizard,

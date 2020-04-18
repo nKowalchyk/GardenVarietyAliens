@@ -3,7 +3,15 @@
 plant_obj = argument0;
 bullet_type = argument1;
 
-var set_damage = plant_obj.damage;
+if (plant_obj != noone)
+{
+	var set_damage = plant_obj.damage;
+}
+else
+{
+	var set_damage = 2
+}
+
 var set_velocity = 3;
 var sprite_depth = -2;
 

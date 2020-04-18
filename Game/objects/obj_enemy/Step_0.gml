@@ -11,7 +11,7 @@ else if(can_attack && inst != noone){
 	can_attack = false;
 	alarm[0] = room_speed * attack_rate;
 	inst.hp -= damage;
-	show_debug_message("attacking");
+	//show_debug_message("attacking");
 }
 
 if(hp <= 0) {

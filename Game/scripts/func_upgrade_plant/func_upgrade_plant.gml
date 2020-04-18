@@ -31,17 +31,17 @@ switch(drop_type) {
 			global.rate_counter -= 1;
 			switch(plant.level){
 				case 0:
-					plant.attack_rate = plant.attack_rate/2;
+					plant.attack_rate = plant.attack_rate*0.8;
 					plant._red = 0;
 					plant._blue = 0;
 					break;
 				case 1:
 					plant.plant_type = plant_types.rose;
-					plant.attack_rate = plant.attack_rate/2;
+					plant.attack_rate = plant.attack_rate*0.8;
 					break;
 				case 2:
 					plant.hat = hats.wizard;
-					plant.attack_rate = plant.attack_rate/2;
+					plant.attack_rate = plant.attack_rate*0.8;
 					break;
 				default:
 					global.rate_counter += 1;

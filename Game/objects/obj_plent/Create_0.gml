@@ -10,6 +10,8 @@ hat = hats.none;
 
 
 image_speed = 0;
+image_index = 2;
+alarm[2] = 10;
 enemy_in_range = false;
 can_attack = true;
 level = 0;

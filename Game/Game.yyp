@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "294794fb-2b63-4cb0-9628-a0ab75e11bbb",
+            "Value": {
+                "id": "588eeee1-5659-4530-9df7-816524c7979c",
+                "resourcePath": "sprites\\spr_void\\spr_void.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fe953b8-f747-41f7-bf28-0e70f756f6ca",
             "Value": {
                 "id": "0edcf775-0a99-4054-979c-81fc62cd556b",
@@ -244,6 +252,14 @@
                 "id": "a564064a-3dcf-47e3-9d3a-1c239cbf689f",
                 "resourcePath": "scripts\\func_draw_colored\\func_draw_colored.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6b193bac-75ff-482f-97b2-0d0734a049a8",
+            "Value": {
+                "id": "65ec2bc7-12e5-4227-af3d-31cd75339017",
+                "resourcePath": "sprites\\spr_debug_tile_2\\spr_debug_tile_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "d5edcf2d-7059-43f0-9e74-d717182ad149",
+            "Value": {
+                "id": "991e3b3a-bfe0-4e53-af94-06171de5c834",
+                "resourcePath": "objects\\obj_void\\obj_void.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "da3d5ada-db52-4e9c-a6b1-f53a0c85c882",
             "Value": {
                 "id": "8a9ed7f5-efa4-48ec-9cef-8204e21ff6b1",
@@ -626,7 +650,7 @@
             "Key": "e8ca47e6-624e-4b36-9bef-eb46dbc3a7d8",
             "Value": {
                 "id": "39dfd11c-4e94-4f54-ace4-1be57227434f",
-                "resourcePath": "objects\\obj_drop\\obj_drop.yy",
+                "resourcePath": "objects\\obj_drop_parent\\obj_drop_parent.yy",
                 "resourceType": "GMObject"
             }
         },
