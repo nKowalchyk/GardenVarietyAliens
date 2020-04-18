@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+randomize();
+
 hp = 3;
 x_speed = -1;
 damage = 1;

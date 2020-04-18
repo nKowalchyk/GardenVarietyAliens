@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_drop_rate",
     "eventList": [
-        
+        {
+            "id": "a1665ab5-84c5-4b94-b5e2-518e95c68e8f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "30c71080-c75a-42a2-be3e-cf28d5e6c79a"
+        },
+        {
+            "id": "60228644-7bfb-4354-86c5-ab658d4f541d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "30c71080-c75a-42a2-be3e-cf28d5e6c79a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

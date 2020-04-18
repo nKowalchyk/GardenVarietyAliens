@@ -37,3 +37,8 @@ enum drop_types {
 
 //game state values
 global.current_build_plant = debug_plents.debug_plent;
+
+//drop countera
+global.damage_counter = 0;
+global.rate_counter = 0;
+global.hp_counter = 0;

@@ -6,12 +6,12 @@
 
 var obj = argument0;
 
-if(mouse_x > obj.x &&
-	mouse_x < obj.x + obj.width &&
-	mouse_y > obj.y &&
-	mouse_y < obj.y + obj.height ) {
-		return true;		
-}
-else {
-	return false;	
-}
+	if(mouse_x > obj.x &&
+		mouse_x < obj.x + obj.width &&
+		mouse_y > obj.y &&
+		mouse_y < obj.y + obj.height ) {
+			return true;		
+	}
+	else {
+		return false;	
+	}
