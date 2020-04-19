@@ -1,1 +1,1 @@
-content = "Game Designed and Programmed by:\nAlex Huard\nNick Kowalchyk\nAlex McGrath\n\nArt and Assets by Nancy Wang"
+content = "Game Designed and Programmed by:\n\nAlex Huard\nNick Kowalchyk\nAlex McGrath\n\nArt by Nancy Wang\n\nMusic by Bruno Cohen"

@@ -9,3 +9,5 @@ _scaleGoal = 1.5;
 _enemyLevel = 1;
 x+=64
 y+=64
+
+audio_play_sound(snd_enemySpawn, 1, false)

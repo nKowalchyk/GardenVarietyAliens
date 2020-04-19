@@ -42,6 +42,6 @@ enum drop_types {
 global.current_build_plant = debug_plents.debug_plent;
 
 //drop countera
-global.damage_counter = 99;
-global.rate_counter = 99;
-global.hp_counter = 99;
+global.damage_counter = 0;
+global.rate_counter = 0;
+global.hp_counter = 0;

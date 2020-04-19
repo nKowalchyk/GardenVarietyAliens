@@ -1,1 +1,1 @@
-content = "Enemies may drop items you can use to upgrade your friends.\nSelect them with the scroll wheel and click your guys to upgrade them.\n\nRed upgrades Damage\nGreen upgrades Rate of Fire\nBlue upgrades Health."
+content = "Enemies may drop items you can use to upgrade your friends.\nSelect them with the 'W', 'E', and 'R' keys then click your guys to upgrade them.\n\nRed upgrades Damage\nGreen upgrades Rate of Fire\nBlue upgrades Health"

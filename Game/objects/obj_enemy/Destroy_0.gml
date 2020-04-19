@@ -1,6 +1,9 @@
 /// @description Insert description here
 // Maybe add multiple drops
 
+
+//audio_play_sound(snd_enemyDeath, 1, false)
+
 for (var i = 0; i < 1; i++)
 {
 	droprate = random_range(1, 100);
