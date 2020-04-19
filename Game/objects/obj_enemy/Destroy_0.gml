@@ -14,7 +14,7 @@ for (var i = 0; i < 1; i++)
 	}else if(droprate > 90){
 		
 	}
-	if irandom(1) == 0
+	if irandom(clamp(irandom(10-_level), 1, 10)) == 0
 	{
 		i--;
 	}

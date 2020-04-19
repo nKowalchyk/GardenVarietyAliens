@@ -11,6 +11,10 @@ if (point_distance(x, y, mouse_x, mouse_y) < 500) and mouse_check_button(mb_righ
 	
 	if point_distance(x, y, mouse_x, mouse_y) < 50
 	{
+		var inst = instance_create_depth(x, y, depth, obj_gui_drop)
+		inst.sprite_index = sprite_index;
+		inst.targetX = targetX
+		inst.targetY = targetY
 		instance_destroy();	
 	}
 	

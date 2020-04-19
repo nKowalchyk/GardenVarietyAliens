@@ -8,7 +8,8 @@
         "b2ebd7f9-f670-49ec-9eda-1885ff065fda",
         "30c71080-c75a-42a2-be3e-cf28d5e6c79a",
         "a37eb9f6-1a11-4425-a933-88059d33eacc",
-        "d5edcf2d-7059-43f0-9e74-d717182ad149"
+        "d5edcf2d-7059-43f0-9e74-d717182ad149",
+        "e5f9945c-be24-49f8-bf14-71a2aab36094"
     ],
     "filterType": "GMObject",
     "folderName": "drops",

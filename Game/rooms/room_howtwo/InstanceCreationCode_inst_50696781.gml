@@ -1,0 +1,1 @@
+content = "When all the lanes are destroyed, you lose!"

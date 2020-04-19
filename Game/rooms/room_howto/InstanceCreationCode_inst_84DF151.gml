@@ -1,0 +1,1 @@
+content = "As you play, your enemies will be gaining similar benefits so watch out!"

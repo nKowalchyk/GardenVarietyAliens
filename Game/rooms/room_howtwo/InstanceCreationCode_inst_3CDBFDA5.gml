@@ -1,0 +1,1 @@
+content = "If they reach rift at the end of the lane, it will destroy the entire lane!\nThis will cause all future waves to be compressed into the other lanes."

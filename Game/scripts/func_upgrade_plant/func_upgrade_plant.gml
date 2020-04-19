@@ -7,17 +7,24 @@ switch(drop_type) {
 			global.damage_counter -= 1;
 			switch(plant.level){
 				case 0:
-					plant.damage+=2;
+					plant.level++;
+					plant.damage+=1;
 					plant._green = 0;
 					plant._blue = 0;
+					instance_create_depth(x, y, -5, obj_sparkle)
+					
 					break;
 				case 1:
+					plant.level++;
 					plant.plant_type = plant_types.daffodil;
-					plant.damage+=2;
+					plant.damage+=1;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				case 2:
+					plant.level++;
 					plant.hat = hats.cowboy;
-					plant.damage+=2;
+					plant.damage = plant.damage/5;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				default:
 					global.damage_counter += 1;
@@ -31,17 +38,23 @@ switch(drop_type) {
 			global.rate_counter -= 1;
 			switch(plant.level){
 				case 0:
+					plant.level++;
 					plant.attack_rate = plant.attack_rate*0.8;
 					plant._red = 0;
 					plant._blue = 0;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				case 1:
+					plant.level++;
 					plant.plant_type = plant_types.rose;
-					plant.attack_rate = plant.attack_rate*0.8;
+					plant.attack_rate = plant.attack_rate*0.5;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				case 2:
+					plant.level++;
 					plant.hat = hats.wizard;
 					plant.attack_rate = plant.attack_rate*0.8;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				default:
 					global.rate_counter += 1;
@@ -55,17 +68,23 @@ switch(drop_type) {
 			global.hp_counter -= 1;
 			switch(plant.level){
 				case 0:
-					plant.hp += 2;
+					plant.level++;
+					plant.hp += obj_enemy_spawner._level;
 					plant._red = 0;
 					plant._green = 0;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				case 1:
+					plant.level++;
 					plant.plant_type = plant_types.poofy;
-					plant.hp += 2;
+					plant.hp += obj_enemy_spawner._level;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				case 2:
+					plant.level++;
 					plant.hat = hats.helmet;
-					plant.hp += 2;
+					plant.hp += obj_enemy_spawner._level;
+					instance_create_depth(x, y, -5, obj_sparkle)
 					break;
 				default:
 				global.hp_counter += 1;
@@ -78,4 +97,3 @@ switch(drop_type) {
 		break;
 }
 
-plant.level++;

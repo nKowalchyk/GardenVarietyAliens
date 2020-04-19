@@ -1,0 +1,1 @@
+content = "These aliens are attempting to reach the unstable rifts at the end of the lanes.\nDo what you can to stop them!"

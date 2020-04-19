@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 
+
+
+
 var inst = instance_place(x + x_speed, y, obj_plent);
 
 if(inst == noone) {

@@ -1,0 +1,1 @@
+content = "These little guys are here to help you defend yourself!\nUse the scroll wheel to select them and left click to place them on free tiles."

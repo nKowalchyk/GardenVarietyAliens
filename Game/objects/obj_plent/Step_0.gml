@@ -28,7 +28,7 @@ switch (image_index)
 		offY = 29;
 		break;
 }
-
+depth = -y
 
 
 if(can_attack && enemy_in_range) {
@@ -36,5 +36,5 @@ if(can_attack && enemy_in_range) {
 	//image_index = 0;
 	alarm[0] = room_speed * attack_rate;
 	alarm[1] = (room_speed * attack_rate)-5; 
-	func_fire_projectile(self, plant_type);
+	func_fire_projectile(self, hat);
 }

@@ -14,21 +14,23 @@ draw_sprite(spr_gui_selector, 0, gui_element_list[| selected_index].x, gui_eleme
 	true
 );*/
 
-draw_set_colour(c_white);
+draw_set_colour(c_black);
+draw_set_font(fnt_gui)
+draw_set_halign(fa_center)
 draw_text(
-x + global.tile_size + 3*(global.tile_size / 4),
-y+100,
+x + global.tile_size + 3*(global.tile_size / 4)+9,
+y+90,
 string(global.damage_counter)
 )
 
 draw_text(
-x + global.tile_size + global.tile_size + 3*(global.tile_size / 4),
-y+100,
+x + global.tile_size + global.tile_size + 3*(global.tile_size / 4)+9,
+y+90,
 string(global.rate_counter)
 )
 
 draw_text(
-x + global.tile_size + global.tile_size + global.tile_size + 3*(global.tile_size / 4),
-y+100,
+x + global.tile_size + global.tile_size + global.tile_size + 3*(global.tile_size / 4)+9,
+y+90,
 string(global.hp_counter)
 )

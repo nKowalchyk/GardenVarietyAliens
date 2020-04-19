@@ -1,0 +1,1 @@
+content = "Game Designed and Programmed by:\nAlex Huard\nNick Kowalchyk\nAlex McGrath\n\nArt and Assets by Nancy Wang"

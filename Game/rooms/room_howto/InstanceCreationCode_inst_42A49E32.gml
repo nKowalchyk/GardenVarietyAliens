@@ -1,0 +1,1 @@
+content = "Hold down the right mouse button to collect upgrade parts."
